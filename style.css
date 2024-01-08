@@ -1,52 +1,93 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Merriweather", serif;
 }
 
-.container{
-    width: 80%;
-    margin: 0 auto;
-
-}
-header{
-    width: 100%;
-    height: 400px;
-    background-image: url(./images/Banner\ Image.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    border-radius: 4px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-}
-header::after{
-    content: "";
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: rgba(0, 0, 0, 0.4);
+.container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
 }
 
-header .sub-title , header .title{
-    color: white;
-    text-transform: capitalize;
-    font-family: 'Merriweather', serif;
-    z-index: 10;
+/* header section start here */
+header {
+  width: 100%;
+  height: 400px;
+  background-image: url(./images/Banner\ Image.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+header::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
 
+header .sub-title,
+header .title {
+  color: white;
+  text-transform: capitalize;
+  z-index: 10;
 }
-header .sub-title{
-    font-size: 25px;
-    font-weight: 300;
+header .sub-title {
+  font-size: 25px;
+  font-weight: 300;
 }
 
-header .title{
-    font-size: 50px;
-    font-weight: bold;
+header .title {
+  font-size: 50px;
+  font-weight: bold;
 }
+/* header section end here */
+
+/* categories section start here */
+.categories-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.discount,
+.discount-title {
+  color: red;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 6px 0px;
+}
+.discount {
+  font-size: 48px;
+}
+.discount-title {
+  font-weight: 900;
+}
+.categories-title {
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: 900;
+
+  margin: 6px 0px;
+}
+.categories-img {
+  width: 60%;
+  margin: 0 auto;
+}
+.categories-img img {
+  width: 100%;
+}
+/* categories section end here */
