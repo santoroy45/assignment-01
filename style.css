@@ -8,7 +8,6 @@
 .container {
   width: 80%;
   margin: 0 auto;
-
 }
 
 /* header section start here */
@@ -25,7 +24,6 @@ header {
   justify-content: center;
   align-items: center;
   position: relative;
-  
 }
 header::after {
   content: "";
@@ -92,45 +90,77 @@ header .title {
 }
 /* categories section end here */
 
-
 /* welcome section start here */
-.welcome-section{
-    width: 100%;
-    height: 400px;
-    background-image: url(./images/welcome-img-back.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    border-radius: 4px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 1rem;
+.welcome-section {
+  width: 100%;
+  height: 400px;
+  background-image: url(./images/welcome-img-back.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
 }
-.welcome-title{
-    font-size: 42px;
-    color: white;
-    margin: 6px 0px;
+.welcome-title {
+  font-size: 42px;
+  color: white;
+  margin: 6px 0px;
 }
-.welcome-info{
-    color: rgba(255, 255, 255, 0.80);
-    margin-bottom: 6px;
-    font-size: 14px;
-
+.welcome-info {
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 6px;
+  font-size: 14px;
 }
-.welcome-button{
-    text-transform: uppercase;
-    font-size: 18px;
-    color: white;
-    border: none;
-    background: inherit;
-    margin-top: 12px;
-    padding: 6px;
-    
-
+.welcome-button {
+  text-transform: uppercase;
+  font-size: 18px;
+  color: white;
+  border: none;
+  background: inherit;
+  margin-top: 12px;
+  padding: 6px;
 }
-.welcome-img img{
-    width: 90%;
+.welcome-img img {
+  width: 90%;
 }
 /* welcome section end here */
 
+/* join section start here */
+.join-section {
+  margin: 6rem 0;
+  width: 100%;
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 0;
+  gap: 8px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.join-section p span {
+  color: red;
+}
+.join-button {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: white;
+  padding: 4px 30px;
+  border-radius: 1px;
+  border: none;
+  background-color: #F00;
+  margin-top: 12px;
+}
+/* join section end here */
