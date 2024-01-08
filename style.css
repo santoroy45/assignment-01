@@ -164,3 +164,57 @@ header .title {
   margin-top: 12px;
 }
 /* join section end here */
+/* offer section start here */
+.offer-section{
+    width: 100%;
+    margin-top: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 12px;
+
+}
+.left-info{
+    width: 70%;
+}
+.offer-section .left-info h4{
+    color: red;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+}
+.offer-section .left-info h3{
+    text-transform: capitalize;
+    margin-bottom: 2px;
+}
+.offer-section .left-info p{
+    font-size: 14px;
+}
+
+.offer-section .middle-img{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 8px solid red;
+    padding: 16px 0px;
+    border-radius: 50%;
+    margin: 0px 24px 0px 0px;
+    
+}
+.offer-section .middle-img img{
+    width: 85%;
+   
+}
+.offer-section .right-info h2{
+    color: red;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+}
+.offer-section .right-info p{
+    font-size: 14px;
+}
+.offer-section .right-info img{
+    width: 40%;
+}
+/* offer section end here */
+
