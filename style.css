@@ -8,9 +8,7 @@
 .container {
   width: 80%;
   margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  gap: 80px;
+
 }
 
 /* header section start here */
@@ -27,6 +25,7 @@ header {
   justify-content: center;
   align-items: center;
   position: relative;
+  
 }
 header::after {
   content: "";
@@ -62,6 +61,7 @@ header .title {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 4rem 0px;
 }
 .discount,
 .discount-title {
@@ -91,3 +91,46 @@ header .title {
   width: 100%;
 }
 /* categories section end here */
+
+
+/* welcome section start here */
+.welcome-section{
+    width: 100%;
+    height: 400px;
+    background-image: url(./images/welcome-img-back.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+.welcome-title{
+    font-size: 42px;
+    color: white;
+    margin: 6px 0px;
+}
+.welcome-info{
+    color: rgba(255, 255, 255, 0.80);
+    margin-bottom: 6px;
+    font-size: 14px;
+
+}
+.welcome-button{
+    text-transform: uppercase;
+    font-size: 18px;
+    color: white;
+    border: none;
+    background: inherit;
+    margin-top: 12px;
+    padding: 6px;
+    
+
+}
+.welcome-img img{
+    width: 90%;
+}
+/* welcome section end here */
+
