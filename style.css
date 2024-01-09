@@ -242,44 +242,41 @@ header .title {
 }
 /* holidays section end here */
 /* holidays img section start here */
-.holidays-img{
+.holidays-img {
   position: relative;
 }
-.horizontal-img{
+.horizontal-img {
   width: 90%;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  
 }
-.holidays-img img{
+.holidays-img img {
   width: 100%;
 }
-.holidays-img .right-img{
+.holidays-img .right-img {
   margin-top: 2.8rem;
 }
-.holidays-img .left-img{
+.holidays-img .left-img {
   width: 60%;
   margin-top: 16rem;
   z-index: 100;
 }
-.holidays-img .last-img{
+.holidays-img .last-img {
   width: 100%;
   height: 120px;
   margin-top: -8rem;
   z-index: 1;
 }
-.discount-img{
+.discount-img {
   width: 180px;
   position: absolute;
   top: 40%;
   right: 40%;
- 
- 
 }
 /* holidays img section end here */
 /* portfolio section start here */
-.portfolio-section{
+.portfolio-section {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -289,34 +286,33 @@ header .title {
   text-align: left;
   gap: 8px;
 }
-.portfolio-section h5{
+.portfolio-section h5 {
   text-transform: uppercase;
   color: red;
 }
-.portfolio-section h2{
+.portfolio-section h2 {
   text-transform: capitalize;
 }
-.portfolio-section p{
+.portfolio-section p {
   font-size: 14px;
   color: gray;
 }
-.portfolio-img{
+.portfolio-img {
   width: 100%;
-
 }
-.portfolio-img-area div{
+.portfolio-img-area div {
   width: 100%;
   display: flex;
-  
+
   gap: 16px;
   margin: 12px 0;
 }
-.portfolio-img-area div img{
+.portfolio-img-area div img {
   width: 30%;
 }
 /* portfolio section end here */
 /* subscribe section start here */
-.subscribe-section{
+.subscribe-section {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -327,35 +323,34 @@ header .title {
   background-color: rgba(255, 0, 0, 0.05);
   text-align: center;
 }
-.subscribe-section .gmail-img img{
+.subscribe-section .gmail-img img {
   width: 60%;
   margin: 8px auto;
 }
-.subscribe-section h1{
+.subscribe-section h1 {
   text-transform: capitalize;
 }
-.subscribe-section p{
+.subscribe-section p {
   color: gray;
   font-size: 14px;
   margin-top: 4px;
   margin-bottom: 22px;
 }
-.searching-group{
+.searching-group {
   width: 50%;
   position: relative;
 }
-.searching-group input{
+.searching-group input {
   width: 100%;
   padding: 12px 16px;
   border: none;
   border-radius: 20px;
-
 }
-.searching-group input::placeholder{
+.searching-group input::placeholder {
   font-size: 12px;
   padding-left: 16px;
 }
-.searching-group p{
+.searching-group p {
   position: absolute;
   right: 16px;
   top: -2px;
@@ -367,3 +362,44 @@ header .title {
 }
 /* subscribe section end here */
 
+/* footer section start here */
+footer {
+  width: 100%;
+  background-color: black;
+  color: white;
+  margin-top: 8rem;
+  padding: 3rem 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .upper-line{
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+}
+.upper-line-social .call , .upper-line .website{
+  display: flex;
+  gap: 8px;
+}
+
+.middle-line{
+  margin-top: 4rem;
+}
+.middle-line img{
+  width: 25px;
+  margin: 0 4px;
+}
+footer .down-line{
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  margin-top: 2rem;
+}
+/* footer section end here */
