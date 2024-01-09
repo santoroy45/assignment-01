@@ -278,4 +278,40 @@ header .title {
  
 }
 /* holidays img section end here */
+/* portfolio section start here */
+.portfolio-section{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  margin-top: 8rem;
+  text-align: left;
+  gap: 8px;
+}
+.portfolio-section h5{
+  text-transform: uppercase;
+  color: red;
+}
+.portfolio-section h2{
+  text-transform: capitalize;
+}
+.portfolio-section p{
+  font-size: 14px;
+  color: gray;
+}
+.portfolio-img{
+  width: 100%;
 
+}
+.portfolio-img-area div{
+  width: 100%;
+  display: flex;
+  
+  gap: 16px;
+  margin: 12px 0;
+}
+.portfolio-img-area div img{
+  width: 30%;
+}
+/* portfolio section end here */
